@@ -1,0 +1,4 @@
+{"timestamp":"2025-06-20T15:13:04.608103","level":"info","event":"DAG bundles loaded: dags-folder","logger":"airflow.dag_processing.bundles.manager.DagBundlesManager"}
+{"timestamp":"2025-06-20T15:13:04.609100","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/etl_proj.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-06-20T15:13:05.358110Z","level":"info","event":"Success: Loaded 1083 recall records to airflow.","chan":"stdout","logger":"task"}
+{"timestamp":"2025-06-20T15:13:05.358944","level":"info","event":"Done. Returned value was: None","logger":"airflow.task.operators.airflow.providers.standard.operators.python.PythonOperator"}
