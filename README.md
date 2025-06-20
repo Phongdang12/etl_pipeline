@@ -9,9 +9,10 @@ Dự án này xây dựng một pipeline ETL sử dụng Apache Airflow để t�
 
 Pipeline được đóng gói và triển khai bằng Docker, giúp dễ dàng cài đặt và mở rộng.
 
-##Tải file dữ liệu nguồn:
+## Tải file dữ liệu nguồn:
 
-###Do file quá lớn nên phải tải về chứ ko request trực tiếp: 
+### Do file quá lớn nên phải tải về chứ ko request trực tiếp: 
 curl -o output.json https://recalls-rappels.canada.ca/sites/default/files/opendata-donneesouvertes/HCRSAMOpenData.json
-###Chạy dự án:
+
+### Chạy dự án:
 docker-compose up -d
