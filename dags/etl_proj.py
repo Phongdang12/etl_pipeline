@@ -1,4 +1,5 @@
 ##Do file quá lớn nên phải tải về chứ ko request trực tiếp: curl -o output.json https://recalls-rappels.canada.ca/sites/default/files/opendata-donneesouvertes/HCRSAMOpenData.json
+##ko cần tạo connection trên airflow
 ## import modules
 import pandas as pd
 from airflow import DAG
